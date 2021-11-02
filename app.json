@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "findOng",
+    "slug": "findOng",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "findOng"
+}
