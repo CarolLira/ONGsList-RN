@@ -18,5 +18,6 @@ Para rodar localmente:
     <li>Rode "yarn install" na pasta do projeto</li>
     <li>Baixe o app "expo" no celular</li>
     <li>E rode o comando "expo start"</li>
+    <li>Escaneie o QRCODE com o app do expo e aguarde o projeto buildar</li>
   </ol>
 </section>
