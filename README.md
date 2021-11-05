@@ -9,6 +9,8 @@ Dependências necessárias:
   </ul>
 </section>
 
+Para rodar localmente:
+
 <section>
   <ol>
     <li>Git Clone https://github.com/CarolLira/ONGsList-RN.git</li>
