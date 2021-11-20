@@ -13,8 +13,7 @@ import { ItemWrapper } from './ItemWrapper';
 
 export interface Ong {
   id: number;
-  title: string;
-  done: boolean;
+  nome: string;
 }
 
 interface OngListProps {
@@ -31,23 +30,23 @@ export function OngsList({ ongs, removeOng }: OngListProps) {
       showsVerticalScrollIndicator={false}
       renderItem={({ item, index }) => {
         return (
-          <ItemWrapper index={index}>
+          <ItemWrapper index={item.id}>
             <View>
               <TouchableOpacity
-                testID={`button-${index}`}
+                testID={`button-${item.id}`}
                 activeOpacity={0.7}
                 style={styles.container}
               >
                 <Text
                   style={styles.ongText}
                 >
-                  {item.title}
+                  {item.nome}
                 </Text>
               </TouchableOpacity>
             </View>
 
             <TouchableOpacity
-              testID={`trash-${index}`}
+              testID={`trash-${item.id}`}
               style={{ paddingHorizontal: 24 }}
               onPress={() => removeOng(item.id)}
             >
