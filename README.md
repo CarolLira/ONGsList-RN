@@ -1,5 +1,5 @@
 # ONGsList-RN
-Projeto de listagem de ongs feito com React Native e Expo
+Projeto de listagem de ONGs feito com React Native e Expo
 
 Dependências necessárias:
 <section>
